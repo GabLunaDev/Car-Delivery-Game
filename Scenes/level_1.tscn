@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://erklebb3u0nm"]
+
+[ext_resource type="PackedScene" uid="uid://dumktnrbhhwxk" path="res://Scenes/world_level_1.tscn" id="1_sqq57"]
+[ext_resource type="PackedScene" uid="uid://bvvva8tbk12mp" path="res://Scenes/delivery_car.tscn" id="2_q82ea"]
+
+[node name="level_1" type="Node"]
+
+[node name="world_level_1" parent="." instance=ExtResource("1_sqq57")]
+position = Vector2(-8, 632)
+metadata/_edit_group_ = true
+
+[node name="DeliveryCar" parent="." instance=ExtResource("2_q82ea")]
+position = Vector2(0, -306)

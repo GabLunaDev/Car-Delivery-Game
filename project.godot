@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Car-Delivery"
-run/main_scene="res://Scenes/delivery_car.tscn"
+run/main_scene="res://Scenes/level_1.tscn"
 config/features=PackedStringArray("4.2", "C#", "GL Compatibility")
 config/icon="res://icon.png"
 
@@ -66,3 +66,4 @@ move_left={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0, 0.282353, 0.105882, 1)

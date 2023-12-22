@@ -1,0 +1,490 @@
+[gd_scene load_steps=10 format=3 uid="uid://dumktnrbhhwxk"]
+
+[ext_resource type="Texture2D" uid="uid://d1yx8drofp4rq" path="res://Assets/Sprites/Road 2.png" id="1_ttxkl"]
+[ext_resource type="Texture2D" uid="uid://jkb3ki7yam3q" path="res://Assets/Sprites/Intersection 1.png" id="2_ef7yc"]
+[ext_resource type="Texture2D" uid="uid://bdvefkjbwdrwf" path="res://Assets/Sprites/Corner 3.png" id="3_o5xl7"]
+[ext_resource type="Texture2D" uid="uid://c6ysqre3ra53f" path="res://Assets/Sprites/Road 1.png" id="4_8swtp"]
+[ext_resource type="Texture2D" uid="uid://becty3mcicigk" path="res://Assets/Sprites/House 3.png" id="5_0la52"]
+[ext_resource type="Texture2D" uid="uid://by8ngkqdrafqm" path="res://Assets/Sprites/House 2.png" id="6_2dlab"]
+[ext_resource type="Texture2D" uid="uid://jp82j6ugtaxt" path="res://Assets/Sprites/Tree 2.png" id="7_r1f2l"]
+[ext_resource type="Texture2D" uid="uid://bk47owqxx34np" path="res://Assets/Sprites/Tree 3.png" id="8_b4plb"]
+[ext_resource type="Texture2D" uid="uid://wlnn307u81r1" path="res://Assets/Sprites/Tree 1.png" id="9_3d7r2"]
+
+[node name="world_level_1" type="Node2D"]
+
+[node name="Road2" type="Sprite2D" parent="."]
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Road11" type="Sprite2D" parent="."]
+position = Vector2(-2086, 0)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Road9" type="Sprite2D" parent="."]
+position = Vector2(-670, 671)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Road10" type="Sprite2D" parent="."]
+position = Vector2(-1412, 671)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Intersection1" type="Sprite2D" parent="."]
+position = Vector2(0, -938.235)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_ef7yc")
+
+[node name="Road3" type="Sprite2D" parent="."]
+position = Vector2(935, -938)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Road5" type="Sprite2D" parent="."]
+position = Vector2(674.376, -1800.62)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Road6" type="Sprite2D" parent="."]
+position = Vector2(1424.38, -1800.62)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Road4" type="Sprite2D" parent="."]
+position = Vector2(-938, -938)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_ttxkl")
+
+[node name="Corner3" type="Sprite2D" parent="."]
+position = Vector2(75.3755, -1725.62)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_o5xl7")
+
+[node name="Corner6" type="Sprite2D" parent="."]
+position = Vector2(-74, 595)
+rotation = 1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_o5xl7")
+
+[node name="Corner8" type="Sprite2D" parent="."]
+position = Vector2(-2011, -864.624)
+rotation = -1.57081
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_o5xl7")
+
+[node name="Corner7" type="Sprite2D" parent="."]
+position = Vector2(-2011, 596)
+rotation = 3.14159
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_o5xl7")
+
+[node name="Corner4" type="Sprite2D" parent="."]
+position = Vector2(2023.38, -1725.62)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_o5xl7")
+
+[node name="Road1" type="Sprite2D" parent="."]
+position = Vector2(2098, -1363)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_8swtp")
+
+[node name="Road12" type="Sprite2D" parent="."]
+position = Vector2(-2086, -516.624)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_8swtp")
+
+[node name="Road13" type="Sprite2D" parent="."]
+position = Vector2(-1556, -937)
+rotation = -1.57079
+scale = Vector2(0.75, 0.998686)
+texture = ExtResource("4_8swtp")
+
+[node name="Road7" type="Sprite2D" parent="."]
+position = Vector2(1405, -938)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_8swtp")
+
+[node name="Road8" type="Sprite2D" parent="."]
+position = Vector2(1683, -938)
+rotation = -1.57079
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_8swtp")
+
+[node name="Corner5" type="Sprite2D" parent="."]
+position = Vector2(2023.38, -1013)
+rotation = 1.5708
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("3_o5xl7")
+
+[node name="House3" type="Sprite2D" parent="."]
+position = Vector2(-1586, -523)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("5_0la52")
+
+[node name="House4" type="Sprite2D" parent="."]
+position = Vector2(462, -1375)
+rotation = -1.57079
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("5_0la52")
+
+[node name="House2" type="Sprite2D" parent="."]
+position = Vector2(-401, -141)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("6_2dlab")
+
+[node name="Tree2" type="Sprite2D" parent="."]
+position = Vector2(-235, 263)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree3" type="Sprite2D" parent="."]
+position = Vector2(-408, 263)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree4" type="Sprite2D" parent="."]
+position = Vector2(-575, 263)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree20" type="Sprite2D" parent="."]
+position = Vector2(1481, -1211)
+rotation = 1.83259
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree21" type="Sprite2D" parent="."]
+position = Vector2(1214, -1446)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree5" type="Sprite2D" parent="."]
+position = Vector2(-235, -554.5)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree6" type="Sprite2D" parent="."]
+position = Vector2(-408, -554.5)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree23" type="Sprite2D" parent="."]
+position = Vector2(272, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree28" type="Sprite2D" parent="."]
+position = Vector2(504, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree29" type="Sprite2D" parent="."]
+position = Vector2(731, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree30" type="Sprite2D" parent="."]
+position = Vector2(973, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree31" type="Sprite2D" parent="."]
+position = Vector2(1212, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree32" type="Sprite2D" parent="."]
+position = Vector2(1430, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree33" type="Sprite2D" parent="."]
+position = Vector2(1666, -645)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree24" type="Sprite2D" parent="."]
+position = Vector2(272, -418)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree25" type="Sprite2D" parent="."]
+position = Vector2(272, -181)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree26" type="Sprite2D" parent="."]
+position = Vector2(272, 36)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree27" type="Sprite2D" parent="."]
+position = Vector2(272, 263)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree34" type="Sprite2D" parent="."]
+position = Vector2(-288, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree35" type="Sprite2D" parent="."]
+position = Vector2(-481, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree36" type="Sprite2D" parent="."]
+position = Vector2(-685, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree37" type="Sprite2D" parent="."]
+position = Vector2(-912, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree38" type="Sprite2D" parent="."]
+position = Vector2(-1154, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree39" type="Sprite2D" parent="."]
+position = Vector2(-1380, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree40" type="Sprite2D" parent="."]
+position = Vector2(-1589, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree41" type="Sprite2D" parent="."]
+position = Vector2(-1810, -1230)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree7" type="Sprite2D" parent="."]
+position = Vector2(-575, -554.5)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree51" type="Sprite2D" parent="."]
+position = Vector2(-2343, -970)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("7_r1f2l")
+
+[node name="Tree8" type="Sprite2D" parent="."]
+position = Vector2(-1686, -69)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree9" type="Sprite2D" parent="."]
+position = Vector2(-965, -623)
+rotation = 1.83259
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree55" type="Sprite2D" parent="."]
+position = Vector2(1074, 313)
+rotation = -3.03972
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree48" type="Sprite2D" parent="."]
+position = Vector2(1095, 301)
+rotation = 1.83259
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree62" type="Sprite2D" parent="."]
+position = Vector2(2248.97, -669.015)
+rotation = -1.83261
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree63" type="Sprite2D" parent="."]
+position = Vector2(2269.97, -681.015)
+rotation = 2.87979
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree56" type="Sprite2D" parent="."]
+position = Vector2(-393, 1532)
+rotation = 1.83259
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree54" type="Sprite2D" parent="."]
+position = Vector2(-838, 1079)
+rotation = 1.83259
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree10" type="Sprite2D" parent="."]
+position = Vector2(-880, 333)
+rotation = 1.0472
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree18" type="Sprite2D" parent="."]
+position = Vector2(-1342, 36)
+rotation = 1.0472
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree11" type="Sprite2D" parent="."]
+position = Vector2(942, -1494)
+rotation = 1.0472
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree42" type="Sprite2D" parent="."]
+position = Vector2(-131, -1926)
+rotation = 1.0472
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree60" type="Sprite2D" parent="."]
+position = Vector2(-1941, -1553)
+rotation = 1.0472
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree61" type="Sprite2D" parent="."]
+position = Vector2(-1941, -1553)
+rotation = 3.14159
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree12" type="Sprite2D" parent="."]
+position = Vector2(1762, -1262)
+rotation = -0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree47" type="Sprite2D" parent="."]
+position = Vector2(-2620, 408)
+rotation = -0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_b4plb")
+
+[node name="Tree1" type="Sprite2D" parent="."]
+position = Vector2(-1113, -176)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree46" type="Sprite2D" parent="."]
+position = Vector2(-1914, 967)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree53" type="Sprite2D" parent="."]
+position = Vector2(-2786, -145)
+rotation = -1.56388
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree13" type="Sprite2D" parent="."]
+position = Vector2(-1106, 337)
+rotation = 1.57079
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree43" type="Sprite2D" parent="."]
+position = Vector2(752, -218)
+rotation = 1.57079
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree57" type="Sprite2D" parent="."]
+position = Vector2(752, -218)
+rotation = 2.35619
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree14" type="Sprite2D" parent="."]
+position = Vector2(-1659, 203)
+rotation = 0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree44" type="Sprite2D" parent="."]
+position = Vector2(-1269, -1762)
+rotation = 0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree58" type="Sprite2D" parent="."]
+position = Vector2(-906, -1453)
+rotation = 0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree59" type="Sprite2D" parent="."]
+position = Vector2(-906, -1453)
+rotation = -0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree52" type="Sprite2D" parent="."]
+position = Vector2(-2485, 894)
+rotation = 2.45717
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree45" type="Sprite2D" parent="."]
+position = Vector2(231, 929)
+rotation = 0.523598
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree15" type="Sprite2D" parent="."]
+position = Vector2(-832, -39)
+rotation = -0.785397
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree19" type="Sprite2D" parent="."]
+position = Vector2(909, -1240)
+rotation = -0.785397
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree49" type="Sprite2D" parent="."]
+position = Vector2(-2583, -664)
+rotation = -0.785397
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree22" type="Sprite2D" parent="."]
+position = Vector2(1630, -1502)
+rotation = -2.35619
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree50" type="Sprite2D" parent="."]
+position = Vector2(-2607, -1186)
+rotation = -2.35619
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree16" type="Sprite2D" parent="."]
+position = Vector2(-1472, 398)
+rotation = 1.55369
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
+
+[node name="Tree17" type="Sprite2D" parent="."]
+position = Vector2(-841, -348)
+rotation = 1.55369
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("9_3d7r2")
