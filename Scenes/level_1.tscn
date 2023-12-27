@@ -11,4 +11,6 @@ metadata/_edit_group_ = true
 
 [node name="DeliveryCar" parent="." instance=ExtResource("2_q82ea")]
 position = Vector2(0, -306)
-EnginePower = 600.0
+EnginePower = 1000.0
+SteeringAngle = 15.0
+TractionFast = 0.05
