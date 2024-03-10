@@ -2,46 +2,53 @@
     "version": "2.0.0",
     "configurations": [
         {
-            "name": "Play in Editor",
-            "type": "godot-mono",
-            "mode": "playInEditor",
-            "request": "launch"
-        },
-        {
             "name": "Launch",
-            "type": "godot-mono",
+            "type": "coreclr",
             "request": "launch",
-            "mode": "executable",
             "preLaunchTask": "build",
-            "executable": "<insert-godot-executable-path-here>",
-            // See which arguments are available here:
-            // https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html
-            "executableArguments": [
+            "program": "/usr/bin/godot-mono",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "args": [
                 "--path",
                 "${workspaceRoot}"
             ]
         },
         {
             "name": "Launch (Select Scene)",
-            "type": "godot-mono",
+            "type": "coreclr",
             "request": "launch",
-            "mode": "executable",
             "preLaunchTask": "build",
-            "executable": "<insert-godot-executable-path-here>",
-            // See which arguments are available here:
-            // https://docs.godotengine.org/en/stable/getting_started/editor/command_line_tutorial.html
-            "executableArguments": [
+            "program": "/usr/bin/godot-mono",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "args": [
                 "--path",
                 "${workspaceRoot}",
-                "${command:SelectLaunchScene}"
+                "${command:godot.csharp.getLaunchScene}"
             ]
         },
         {
-            "name": "Attach",
-            "type": "godot-mono",
-            "request": "attach",
-            "address": "localhost",
-            "port": 23685
+            "name": "Launch Editor",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "/usr/bin/godot-mono",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "args": [
+                "--path",
+                "${workspaceRoot}",
+                "--editor"
+            ]
+        },
+        {
+            "name": "Attach to Process",
+            "type": "coreclr",
+            "request": "attach"
         }
     ]
 }

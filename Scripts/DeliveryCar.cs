@@ -33,7 +33,6 @@ public partial class DeliveryCar : CharacterBody2D
             _acceleration = Transform.X * EnginePower * Input.GetActionStrength("move_forward");
         if(Input.IsActionPressed("move_backward"))
             _acceleration = Transform.X * -Braking * Input.GetActionStrength("move_backward");
-
     }
 
     private void CalculateSteering(double delta)
